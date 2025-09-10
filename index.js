@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Quitar clase activa de todos
             links.forEach(l => {
-                l.classList.remove("bg-orange-800", "text-white", "font-medium");
-                l.classList.add("text-gray-700", "hover:text-blue-600");
+                l.classList.remove("bg-[#ff8107]", "text-white", "font-medium");
+                l.classList.add("text-[#D6D6D6]");
             });
 
             // Aplicar clase activa al link clickeado
-            link.classList.add("bg-orange-800", "text-white", "font-medium", "rounded-lg");
+            link.classList.add("bg-[#ff8107]", "text-white", "font-medium", "rounded-lg");
             link.classList.remove("text-gray-700", "hover:text-blue-600");
         });
     });
