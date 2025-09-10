@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         embebidos: "sistemas_embebidos.html",
         comunicaciones: "comunicaciones.html",
         senales: "procesamiento_senales.html",
-        ia: "inteligencia_artificial.html",
+        ia: "ai.html",
         practicas1: "practicas.html",
         practicas2: "simulacion_circuitos.html",
         practicas3: "simulacion_microcontroladores.html",
