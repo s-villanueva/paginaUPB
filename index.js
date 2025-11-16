@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // === DATA MODEL: majors + their courses ===
   // Just edit this to add more majors/courses later
-  const majors = [
+    const majors = [
     {
       id: "electromec",
       name: "Electromechanics Engineering",
@@ -47,105 +47,94 @@ document.addEventListener("DOMContentLoaded", () => {
             label: "Applied Electronics II",
             icon: "memory",
         },
-        {
-            id: "microcontroladores",
-            label: "Microcontrollers",
-            icon: "developer_board",
-        },
-        {
-            id: "embebidos",
-            label: "Embedded Systems",
-            icon: "devices_other",
-        }
-        ,
       ],
     },
     {
-        id: "ai_eng",
-        name:"AI Engineering",
-        openByDefault: false,
-        courses: [
+      id: "ai_eng",
+      name:"AI Engineering",
+      openByDefault: false,
+      courses: [
         {
-            id: "data_mining",
-            label:"Data Mining",
-            icon:"",
+          id: "data_mining",
+          label:"Data Mining",
+          icon: "analytics",
         },
         {
-            id: "machine_learning",
-            label:"Machine Learning I & II",
-            icon: "",
+          id: "machine_learning",
+          label:"Machine Learning I & II",
+          icon: "timeline",
         },
         {
-            id: "deep_l",
-            label: "Deep Learning",
-            icon: "",
+          id: "deep_l",
+          label: "Deep Learning",
+          icon: "hub",
         },
         {
-            id: "comp_vis",
-            label: "Computer Vision",
-            icon: "",
+          id: "comp_vis",
+          label: "Computer Vision",
+          icon: "visibility",
         }, 
         {
-            id: "nat_lang_process",
-            label: "Natural Language Processing",
-            icon: "",
+          id: "nat_lang_process",
+          label: "Natural Language Processing",
+          icon: "language",
         },
         {
-            id: "robotics",
-            label: "Robotics",
-            icon: "",
+          id: "robotics",
+          label: "Robotics",
+          icon: "precision_manufacturing",
         },
         {
-            id: "big_data",
-            label: "Big Data",
-            icon: "",
+          id: "big_data",
+          label: "Big Data",
+          icon: "storage",
         },
         {
-            id: "adv_ai_project",
-            label: "Advanced AI Project",
-            icon: "",
+          id: "adv_ai_project",
+          label: "Advanced AI Project",
+          icon: "assignment",
         },
-        ]
-    
+      ]
     },
     {
-        id: "sistem_comp",
-        name: "Computer Systems Engineering",
-        openByDefault: false,
-        courses: [
-            {
-                id: "tel_network",
-                label: "Telematics and Networks I",
-                icon: ""
-            },
-            {
-                id: "ai_course",
-                label: "Artificial Intelligence",
-                icon: "",
-            },
-            {
-                id: "adv_databases",
-                label: "Advanced Databases",
-                icon: "",
-            },
-            {
-                id: "topics_ai",
-                label: "Selected Topics in AI",
-                icon: "",
-            },
-            {
-                id: "robotics_sistems",
-                label: "Robotics",
-                icon: "",
-            },
-            {
-                id: "thesis_project",
-                label: "Thesis Project",
-                icon: "",
-            },
-        ]
+      id: "sistem_comp",
+      name: "Computer Systems Engineering",
+      openByDefault: false,
+      courses: [
+        {
+          id: "tel_network",
+          label: "Telematics and Networks I",
+          icon: "lan",
+        },
+        {
+          id: "ai_course",
+          label: "Artificial Intelligence",
+          icon: "psychology",
+        },
+        {
+          id: "adv_databases",
+          label: "Advanced Databases",
+          icon: "dns",
+        },
+        {
+          id: "topics_ai",
+          label: "Selected Topics in AI",
+          icon: "auto_awesome",
+        },
+        {
+          id: "robotics_sistems",
+          label: "Robotics",
+          icon: "smart_toy",
+        },
+        {
+          id: "thesis_project",
+          label: "Thesis Project",
+          icon: "school",
+        },
+      ]
     },
   ];
+
 
   // === helper: build one course button with your existing animation ===
   function createCourseLink(course) {
