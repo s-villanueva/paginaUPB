@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Curso de Análisis de Señales y Sistemas</title>
+<title>Signals and Systems Analysis Course</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
@@ -18,114 +18,127 @@
 <main class="w-full md:w-11/12s p-8 mx-auto overflow-y-auto">
 <div class="bg-white p-8 rounded-2xl shadow-md">
     
-    <!-- Título -->
+    <!-- Title -->
     <div class="flex items-center mb-6">
         <span class="material-icons text-4xl text-blue-700 mr-4">functions</span>
-        <h1 class="text-4xl font-bold text-gray-900">Análisis de Señales y Sistemas</h1>
+        <h1 class="text-4xl font-bold text-gray-900">Signals and Systems Analysis</h1>
     </div>
 
-    <!-- Introducción -->
+    <!-- Introduction -->
     <p class="text-gray-600 leading-relaxed mb-6">
-        La creciente generación masiva de datos y el avance de la inteligencia artificial han convertido 
-        el análisis de información en una cualidad esencial para los ingenieros contemporáneos. 
-        Conceptos avanzados como el análisis espectral, el filtrado de ruido y el uso de ecuaciones en 
-        diferencias para el modelamiento de series de tiempo son cada vez más apreciados en la industria. 
-        En este curso, el estudiante aprenderá desde los fundamentos a refinar datos mediante 
-        herramientas como la transformada de Fourier, en un entorno teórico-práctico con software de 
-        libre acceso como Python.
+        The rapid growth of data generation and the advancement of artificial intelligence have made 
+        information analysis an essential skill for contemporary engineers. Advanced concepts such as 
+        spectral analysis, noise filtering, and the use of difference equations for time-series modeling 
+        are increasingly relevant in modern industry. In this course, students will learn from the 
+        fundamentals to refine data through tools such as the Fourier transform, using theoretical and 
+        practical approaches supported by open-source software like Python.
     </p>
 
-    <!-- Objetivos -->
-    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Objetivos de Aprendizaje</h3>
+    <!-- Learning Objectives -->
+    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Learning Objectives</h3>
     <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
-        <li>Adquirir habilidades críticas esenciales para calcular números complejos.</li>
-        <li>Comprender el concepto de tiempo continuo y discreto, y la conexión entre ambos.</li>
-        <li>Diseñar filtros analógicos y digitales para eliminar ruido de alta y baja frecuencia.</li>
-        <li>Utilizar la transformada de Laplace para resolver sistemas en tiempo continuo.</li>
+        <li>Develop essential critical skills for working with complex numbers.</li>
+        <li>Understand the concept of continuous and discrete time, and the relationship between both domains.</li>
+        <li>Design analog and digital filters to remove high- and low-frequency noise.</li>
+        <li>Use the Laplace transform to solve continuous-time systems.</li>
     </ul>
 
-    <!-- Temario -->
+    <!-- Course Content -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Temario del Curso</h3>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Course Outline</h3>
             <ul class="space-y-3 list-disc list-inside text-gray-600">
-                <b>Tema 1:</b> Números complejos y funciones especiales  
+                <b>Topic 1:</b> Complex Numbers and Special Functions  
                     <ul class="ml-6 list-disc">
-                        <li>Variable compleja</li>
-                        <li>Funciones periódicas continuas y discretas</li>
-                        <li>Función escalón unitario</li>
-                        <li>Función impulso unitario</li>
-                        <li>Funciones exponenciales complejas</li>
+                        <li>Complex variable</li>
+                        <li>Continuous and discrete periodic functions</li>
+                        <li>Unit step function</li>
+                        <li>Unit impulse function</li>
+                        <li>Complex exponential functions</li>
                     </ul>
                 <br>
-                <b>Tema 2:</b> Sistemas en tiempo continuo  
+                <b>Topic 2:</b> Continuous-Time Systems  
                     <ul class="ml-6 list-disc">
-                        <li>Propiedades de los sistemas</li>
-                        <li>Definición de sistemas en tiempo continuo</li>
-                        <li>Respuesta al escalón e impulso</li>
-                        <li>ZIR y ZSR (masa-resorte)</li>
+                        <li>System properties</li>
+                        <li>Definition of continuous-time systems</li>
+                        <li>Step and impulse responses</li>
+                        <li>ZIR and ZSR (mass–spring example)</li>
                     </ul>
                 <br>
-                <b>Tema 3:</b> Series y Transformadas de Fourier  
+                <b>Topic 3:</b> Fourier Series and Transforms  
                     <ul class="ml-6 list-disc">
-                        <li>Series de Fourier: definición y propiedades</li>
-                        <li>Transformada de Fourier: definición y propiedades</li>
+                        <li>Fourier series: definition and properties</li>
+                        <li>Fourier transform: definition and properties</li>
                     </ul>
                 <br>
-                <b>Tema 4:</b> Funciones en tiempo discreto y transformadas  
+                <b>Topic 4:</b> Discrete-Time Signals and Transforms  
                     <ul class="ml-6 list-disc">
-                        <li>Señales y sistemas en tiempo discreto</li>
-                        <li>Transformada de Fourier en tiempo discreto</li>
-                        <li>Teorema de Nyquist</li>
-                        <li>Ecuaciones en diferencias</li>
+                        <li>Discrete-time signals and systems</li>
+                        <li>Discrete-time Fourier transform</li>
+                        <li>Nyquist theorem</li>
+                        <li>Difference equations</li>
                     </ul>
                 <br>
-                <b>Tema 5:</b> Análisis Espectral  
+                <b>Topic 5:</b> Spectral Analysis  
                     <ul class="ml-6 list-disc">
-                        <li>Concepto de ruido</li>
-                        <li>Filtrado digital FIR</li>
-                        <li>Banda de paso, transición y rechazo</li>
+                        <li>Noise concepts</li>
+                        <li>Digital FIR filtering</li>
+                        <li>Passband, transition band, and stopband</li>
                     </ul>
                 <br>
-                <b>Tema 6:</b> Transformada de Laplace  
+                <b>Topic 6:</b> Laplace Transform  
                     <ul class="ml-6 list-disc">
-                        <li>Definición y propiedades</li>
-                        <li>Resolución de sistemas continuos</li>
-                        <li>Relación con la transformada de Fourier</li>
+                        <li>Definition and properties</li>
+                        <li>Solving continuous-time systems</li>
+                        <li>Relation to the Fourier transform</li>
                     </ul>
             </ul>
         </div>
 
-        <!-- Imagen decorativa -->
+        <!-- Images -->
         <div>
-            <img alt="Gráfico de señales y transformadas" 
-                 src="/upbPag/fourier.jpg"/>
+            <img alt="Signals and Fourier analysis graphic" 
+                 src="upbPag/fourier.jpg"/>
         
             <br><br><br><br>
-                 <img src="/upbPag/el-teorema-de-Nyquist.jpg" 
+            <img src="upbPag/el-teorema-de-Nyquist.jpg" 
                  width="400px"
                  height="400px"
-                 alt="Teorema de Nyquist">
+                 alt="Nyquist Theorem">
         </div>
         
     </div>
+
+    <!-- Added AI + GPU Paragraph BEFORE Instructor -->
+    <p class="text-gray-700 mt-10 leading-relaxed">
+        Integrating artificial intelligence tools powered by GPU acceleration significantly enhances
+         the learning experience in this course, enabling real-time signal simulations, dynamic Fourier 
+         and Laplace visualizations, intelligent tutors that detect conceptual gaps, automatic signal 
+         generation, and advanced spectral analysis. By leveraging GPU computing within the campus, students 
+         can experiment with real-world data, train deep learning models for noise reduction or signal 
+         classification, design interactive digital filters, and explore complex phenomena such as aliasing, noise 
+         behavior, and system dynamics with immediate feedback. This modern approach bridges theoretical knowledge with 
+         industry-level computational practices, fostering a more intuitive, practical, and immersive understanding of 
+         signals and systems.
+    </p>
 
     <!-- Instructor -->
     <div class="mt-12">
         <h3 class="text-2xl font-semibold text-gray-800 mb-4">Instructor</h3>
         <div class="flex items-center bg-gray-50 p-4 rounded-lg">
-            <img alt="Retrato del profesor" 
+            <img alt="Professor portrait" 
                  class="w-16 h-16 rounded-full mr-4 object-cover" 
-                 src="/upbPag/edgar.jpg"/>
+                 src="upbPag/edgar.jpg"/>
             <div>
                 <p class="font-bold text-lg text-gray-900">Edgar Salazar PhD.</p>
                 <p class="text-gray-600">
-                    Jefe de Carrera de Ingeniería Electromecánica <br>
-                    Docente investigador
+                    Head of Electromechanical Engineering Department <br>
+                    Research Professor
                 </p>
             </div>
         </div>
     </div>
+
 </div>
 </main>
 </body>

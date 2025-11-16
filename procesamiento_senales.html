@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Curso de Procesamiento Digital de Señales</title>
+<title>Digital Signal Processing Course</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
@@ -18,111 +18,116 @@
 <main class="w-full md:w-11/12s p-8 mx-auto overflow-y-auto">
 <div class="bg-white p-8 rounded-2xl shadow-md">
     
-    <!-- Título -->
+    <!-- Title -->
     <div class="flex items-center mb-6">
         <span class="material-icons text-4xl text-blue-700 mr-4">graphic_eq</span>
-        <h1 class="text-4xl font-bold text-gray-900">Procesamiento Digital de Señales</h1>
+        <h1 class="text-4xl font-bold text-gray-900">Digital Signal Processing</h1>
     </div>
 
-    <!-- Introducción -->
+    <!-- Introduction -->
     <p class="text-gray-600 leading-relaxed mb-6">
-        El campo del procesamiento digital de señales (DSP) ha evolucionado hasta convertirse en
-        una disciplina esencial en comunicaciones, medicina, imagen, música y más. 
-        Este curso proporciona los fundamentos teóricos y prácticos del DSP, incluyendo análisis de Fourier, 
-        muestreo, cuantificación, diseño de filtros digitales y aplicaciones modernas. 
-        Los estudiantes desarrollarán competencias en el uso de herramientas matemáticas y de software 
-        para analizar y procesar señales digitales, aplicando el conocimiento en entornos reales.
+        The field of Digital Signal Processing (DSP) has evolved into an essential discipline across 
+        communications, medicine, imaging, music, and more. This course provides the theoretical and practical 
+        foundations of DSP, including Fourier analysis, sampling, quantization, digital filter design, and 
+        modern applications. Students will develop competencies in mathematical tools and software used to 
+        analyze and process digital signals, applying this knowledge in real-world environments.
     </p>
 
-    <!-- Objetivos -->
-    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Objetivos de Aprendizaje</h3>
+    <!-- Learning Objectives -->
+    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Learning Objectives</h3>
     <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
-        <li>Desarrollar competencias para la implementación de algoritmos de procesamiento digital.</li>
-        <li>Entender las transformaciones de señales y aplicarlas en distintos contextos.</li>
-        <li>Modelar sistemas en tiempo discreto.</li>
-        <li>Aplicar el proceso de convolución en sistemas lineales e invariantes en el tiempo.</li>
-        <li>Familiarizarse con aplicaciones directas del DSP en las tecnologías actuales.</li>
-        <li>Ejecutar trabajos prácticos y de laboratorio con solvencia técnica.</li>
+        <li>Develop skills for implementing digital signal processing algorithms.</li>
+        <li>Understand signal transformations and apply them in various contexts.</li>
+        <li>Model discrete-time systems.</li>
+        <li>Apply convolution processes in linear and time-invariant systems.</li>
+        <li>Become familiar with practical DSP applications in current technologies.</li>
+        <li>Execute laboratory and practical assignments with technical proficiency.</li>
     </ul>
 
-    <!-- Temario -->
+    <!-- Course Outline -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Temario del Curso</h3>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Course Outline</h3>
             <ul class="space-y-3 list-disc list-inside text-gray-600">
-                <b>Tema 1:</b> Introducción y generalidades del DSP  
+                <b>Topic 1:</b> Introduction and DSP Fundamentals  
                     <ul class="ml-6 list-disc">
-                        <li>Definiciones y fundamentos</li>
-                        <li>Aspectos básicos de DSP</li>
-                        <li>Fundamentos matemáticos</li>
+                        <li>Definitions and foundations</li>
+                        <li>Basic DSP concepts</li>
+                        <li>Mathematical fundamentals</li>
                     </ul>
                 <br>
-                <b>Tema 2:</b> Análisis de Fourier  
+                <b>Topic 2:</b> Fourier Analysis  
                     <ul class="ml-6 list-disc">
-                        <li>Transformada discreta de Fourier (DFT)</li>
-                        <li>Transformada de Fourier de tiempo corto</li>
-                        <li>Series de Fourier discretas</li>
-                        <li>Modulación sinusoidal</li>
+                        <li>Discrete Fourier Transform (DFT)</li>
+                        <li>Short-Time Fourier Transform</li>
+                        <li>Discrete Fourier Series</li>
+                        <li>Sinusoidal modulation</li>
                     </ul>
                 <br>
-                <b>Tema 3:</b> Muestreo y Cuantificación  
+                <b>Topic 3:</b> Sampling and Quantization  
                     <ul class="ml-6 list-disc">
-                        <li>Muestreo de señales</li>
-                        <li>Interpolación</li>
-                        <li>Cuantificación de señales</li>
-                        <li>Reconstrucción de señales continuas</li>
+                        <li>Signal sampling</li>
+                        <li>Interpolation</li>
+                        <li>Signal quantization</li>
+                        <li>Reconstruction of continuous signals</li>
                     </ul>
                 <br>
-                <b>Tema 4:</b> Filtros Digitales  
+                <b>Topic 4:</b> Digital Filters  
                     <ul class="ml-6 list-disc">
-                        <li>Filtros lineales</li>
-                        <li>Estabilidad y respuesta en frecuencia</li>
-                        <li>Filtros ideales y realizables</li>
-                        <li>Diseño y aplicación de filtros digitales</li>
+                        <li>Linear filters</li>
+                        <li>Stability and frequency response</li>
+                        <li>Ideal and realizable filters</li>
+                        <li>Design and application of digital filters</li>
                     </ul>
                 <br>
-                <b>Tema 5:</b> Espacios Vectoriales aplicados al DSP  
+                <b>Topic 5:</b> Vector Spaces Applied to DSP  
                     <ul class="ml-6 list-disc">
-                        <li>Conceptos de espacios vectoriales</li>
-                        <li>Bases y subespacios</li>
-                        <li>Aplicaciones en señales discretas</li>
+                        <li>Vector space concepts</li>
+                        <li>Bases and subspaces</li>
+                        <li>Applications in discrete signals</li>
                     </ul>
                 <br>
-                <b>Tema 6:</b> Aplicaciones de DSP  
+                <b>Topic 6:</b> DSP Applications  
                     <ul class="ml-6 list-disc">
-                        <li>Análisis avanzado de series de tiempo</li>
-                        <li>Procesamiento digital y espectrograma</li>
-                        <li>Transformadas avanzadas</li>
+                        <li>Advanced time-series analysis</li>
+                        <li>Digital processing and spectrogram analysis</li>
+                        <li>Advanced transforms</li>
                     </ul>
             </ul>
         </div>
 
-        <!-- Imagen decorativa -->
+        <!-- Images -->
         <div>
-            <img alt="Interpolación" 
-                 src="/upbPag/interpolacion.jpg"/>
+            <img alt="Interpolation" 
+                 src="upbPag/interpolacion.jpg"/>
             <br><br><br>
-            <img alt="Análisis de Fourier" 
-                 src="/upbPag/fourierAnalisis.png"/>
+            <img alt="Fourier Analysis" 
+                 src="upbPag/fourierAnalisis.png"/>
         </div>
     </div>
+
+    <!-- Added AI + GPU Paragraph BEFORE Instructor -->
+    <p class="text-gray-700 mt-10 leading-relaxed">
+        Leveraging artificial intelligence tools accelerated by GPUs greatly enhances the learning experience in this Digital Signal Processing course. Students can run real-time Fourier analyses, experiment with dynamic spectrograms, simulate sampling and quantization effects interactively, and design digital filters that update instantly with GPU-powered computation. AI models can classify and denoise complex signals, generate synthetic datasets for laboratory work, and provide intelligent tutoring that identifies conceptual misunderstandings in topics such as DFT, STFT, convolution, and stability. Through GPU-enabled environments on campus, learners gain hands-on experience with industry-level computational workflows, making DSP concepts more intuitive, practical, and directly applicable to modern technologies.
+    </p>
 
     <!-- Instructor -->
     <div class="mt-12">
         <h3 class="text-2xl font-semibold text-gray-800 mb-4">Instructor</h3>
         <div class="flex items-center bg-gray-50 p-4 rounded-lg">
-            <img alt="Retrato del profesor" 
+            <img alt="Professor portrait" 
                  class="w-16 h-16 rounded-full mr-4 object-cover" 
-                 src="/upbPag/edgar.jpg"/>
+                 src="upbPag/edgar.jpg"/>
             <div>
                 <p class="font-bold text-lg text-gray-900">Dr. Edgar Salazar</p>
                 <p class="text-gray-600">
-                    Jefe de Carrera de Ingeniería Electromecánica <br>
-                    Docente investigador
+                    Head of Electromechanical Engineering Department <br>
+                    Research Professor
                 </p>
             </div>
         </div>
     </div>
+
 </div>
 </main>
 </body>
