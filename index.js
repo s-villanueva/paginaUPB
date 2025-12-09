@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     diseno_asistido: "cad.html",
     ingeniera_produccion: "production_engineering.html",
     comp_for_bio: "computing_bioengineering.html",
+    bioinformatics_and_bigdata: "bioinformatics_big_data.html",
   };
 
   // === DATA MODEL: majors + their courses ===

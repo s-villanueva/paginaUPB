@@ -1,0 +1,104 @@
+/* Responsive fixes for course pages */
+
+/* Main container responsive padding */
+main {
+    padding: 1rem !important;
+}
+
+@media (min-width: 768px) {
+    main {
+        padding: 2rem !important;
+    }
+}
+
+/* Card padding responsive */
+.bg-white {
+    padding: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+    .bg-white {
+        padding: 2rem !important;
+    }
+}
+
+/* Title responsive */
+h1 {
+    font-size: 1.75rem !important;
+    line-height: 1.2 !important;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.25rem !important;
+    }
+}
+
+/* Icon size responsive */
+.material-icons.text-4xl {
+    font-size: 2rem !important;
+    margin-right: 0.75rem !important;
+}
+
+@media (min-width: 768px) {
+    .material-icons.text-4xl {
+        font-size: 2.25rem !important;
+        margin-right: 1rem !important;
+    }
+}
+
+/* Images responsive */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 0.5rem;
+}
+
+/* Grid spacing on mobile */
+.grid.gap-8 {
+    gap: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+    .grid.gap-8 {
+        gap: 2rem !important;
+    }
+}
+
+/* Text sizing */
+.text-2xl {
+    font-size: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+    .text-2xl {
+        font-size: 1.875rem !important;
+    }
+}
+
+/* Instructor card responsive */
+.flex.items-center.bg-gray-50 {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+}
+
+@media (min-width: 640px) {
+    .flex.items-center.bg-gray-50 {
+        flex-direction: row !important;
+        align-items: center !important;
+    }
+}
+
+/* Instructor image */
+.flex.items-center.bg-gray-50 img,
+.flex.items-center.bg-gray-50 .material-icons {
+    margin-bottom: 1rem !important;
+}
+
+@media (min-width: 640px) {
+    .flex.items-center.bg-gray-50 img,
+    .flex.items-center.bg-gray-50 .material-icons {
+        margin-bottom: 0 !important;
+    }
+}

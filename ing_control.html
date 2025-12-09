@@ -1,119 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Control Engineering Course</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-<style>
-    body { font-family: 'Roboto', sans-serif; }
-</style>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Control Engineering Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="course-responsive.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-100">
-<main class="w-full md:w-11/12s p-8 mx-auto overflow-y-auto">
-<div class="bg-white p-8 rounded-2xl shadow-md">
+    <main class="w-full md:w-11/12 p-8 mx-auto overflow-y-auto">
+        <div class="bg-white p-8 rounded-2xl shadow-md">
 
-    <!-- Title -->
-    <div class="flex items-center mb-6">
-        <span class="material-icons text-4xl text-green-700 mr-4">settings</span>
-        <h1 class="text-4xl font-bold text-gray-900">Control Engineering</h1>
-    </div>
-
-    <!-- Introduction -->
-    <p class="text-gray-600 leading-relaxed mb-6">
-        Automatic control has been a fundamental pillar in scientific and industrial development. 
-        From aircraft guidance systems to modern industrial processes, its impact is profound. 
-        This course introduces the principles, mathematical tools, and practical techniques required to analyze, 
-        design, and implement control systems. Students will learn to model dynamic systems, evaluate stability, 
-        and design classical controllers such as PID, applying theory to real-world environments.
-    </p>
-
-    <!-- Learning Objectives -->
-    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Learning Objectives</h3>
-    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
-        <li>Analyze the response of linear systems using transfer functions.</li>
-        <li>Differentiate advantages and disadvantages of open-loop and closed-loop systems.</li>
-        <li>Apply mathematical transforms in control system analysis.</li>
-        <li>Design and tune PID-type controllers.</li>
-        <li>Implement complete control systems in laboratory environments.</li>
-    </ul>
-
-    <!-- Course Outline -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Course Outline</h3>
-            <ul class="space-y-3 list-disc list-inside text-gray-600">
-                
-                <b>Topic 1:</b> Introduction to Control Systems
-                    <ul class="ml-6 list-disc">
-                        <li>Dynamic systems and classification</li>
-                        <li>Feedback systems</li>
-                        <li>Transfer functions</li>
-                        <li>Block diagrams and signal flow graphs</li>
-                    </ul>
-                <br>
-                <b>Topic 2:</b> Mathematical Modeling
-                    <ul class="ml-6 list-disc">
-                        <li>SISO and MIMO system modeling</li>
-                        <li>Electrical, mechanical, and thermal systems</li>
-                        <li>State variables</li>
-                        <li>Transfer functions using Laplace transform</li>
-                    </ul>
-                <br>
-                <b>Topic 3:</b> Analysis and Stability
-                    <ul class="ml-6 list-disc">
-                        <li>Transient and steady-state response</li>
-                        <li>Absolute and relative stability</li>
-                        <li>Routh criterion and root locus</li>
-                        <li>MATLAB simulation</li>
-                    </ul>
-                <br>
-                <b>Topic 4:</b> Design and Implementation
-                    <ul class="ml-6 list-disc">
-                        <li>P, PI, PD, and PID controllers</li>
-                        <li>Phase compensators</li>
-                        <li>Classical design techniques</li>
-                        <li>Practical implementation of control systems</li>
-                    </ul>
-
-            </ul>
-        </div>
-
-        <!-- Images -->
-        <div>
-            <img alt="Closed Loop"
-                 src="upbPag/closed_loop.jpg"/>
-            <br><br><br>
-            <img alt="PID Controller"
-                 src="upbPag/controladorPid.png"/>
-        </div>
-    </div>
-
-    <!-- Added AI + GPU Paragraph BEFORE Instructor -->
-    <p class="text-gray-700 mt-10 leading-relaxed">
-        Integrating GPU-accelerated AI tools into this Control Engineering course greatly enriches the learning experience by enabling real-time simulation of dynamic systems, rapid computation of root locus, Bode, and Nyquist diagrams, and intelligent optimization of PID and compensator tuning. Students can experiment with high-fidelity digital twins, train neural network–based controllers, and explore reinforcement learning approaches for autonomous control—all powered by GPU computation. AI-driven tutors can identify errors in stability analysis or controller design, offering targeted feedback. With campus GPU infrastructure, learners gain hands-on exposure to modern control methodologies used in robotics, aerospace, industrial automation, and smart systems.
-    </p>
-
-    <!-- Instructor -->
-    <div class="mt-12">
-        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Instructor</h3>
-        <div class="flex items-center bg-gray-50 p-4 rounded-lg">
-            <img alt="Professor"
-                 class="w-16 h-16 rounded-full mr-4 object-cover"
-                 src="upbPag/carlosLopez.jpg"/>
-            <div>
-                <p class="font-bold text-lg text-gray-900">Mgr. Carlos López</p>
-                <p class="text-gray-600">
-                    Head of Mechatronics Engineering Laboratory
-                </p>
+            <!-- Title -->
+            <div class="flex items-center mb-6">
+                <span class="material-icons text-4xl text-green-700 mr-4">settings</span>
+                <h1 class="text-4xl font-bold text-gray-900">Control Engineering</h1>
             </div>
-        </div>
-    </div>
 
-</div>
-</main>
+            <!-- Introduction -->
+            <p class="text-gray-600 leading-relaxed mb-6">
+                Automatic control has been a fundamental pillar in scientific and industrial development.
+                From aircraft guidance systems to modern industrial processes, its impact is profound.
+                This course introduces the principles, mathematical tools, and practical techniques required to analyze,
+                design, and implement control systems. Students will learn to model dynamic systems, evaluate stability,
+                and design classical controllers such as PID, applying theory to real-world environments.
+            </p>
+
+            <!-- Learning Objectives -->
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Learning Objectives</h3>
+            <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                <li>Analyze the response of linear systems using transfer functions.</li>
+                <li>Differentiate advantages and disadvantages of open-loop and closed-loop systems.</li>
+                <li>Apply mathematical transforms in control system analysis.</li>
+                <li>Design and tune PID-type controllers.</li>
+                <li>Implement complete control systems in laboratory environments.</li>
+            </ul>
+
+            <!-- Course Outline -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Course Outline</h3>
+                    <ul class="space-y-3 list-disc list-inside text-gray-600">
+
+                        <b>Topic 1:</b> Introduction to Control Systems
+                        <ul class="ml-6 list-disc">
+                            <li>Dynamic systems and classification</li>
+                            <li>Feedback systems</li>
+                            <li>Transfer functions</li>
+                            <li>Block diagrams and signal flow graphs</li>
+                        </ul>
+                        <br>
+                        <b>Topic 2:</b> Mathematical Modeling
+                        <ul class="ml-6 list-disc">
+                            <li>SISO and MIMO system modeling</li>
+                            <li>Electrical, mechanical, and thermal systems</li>
+                            <li>State variables</li>
+                            <li>Transfer functions using Laplace transform</li>
+                        </ul>
+                        <br>
+                        <b>Topic 3:</b> Analysis and Stability
+                        <ul class="ml-6 list-disc">
+                            <li>Transient and steady-state response</li>
+                            <li>Absolute and relative stability</li>
+                            <li>Routh criterion and root locus</li>
+                            <li>MATLAB simulation</li>
+                        </ul>
+                        <br>
+                        <b>Topic 4:</b> Design and Implementation
+                        <ul class="ml-6 list-disc">
+                            <li>P, PI, PD, and PID controllers</li>
+                            <li>Phase compensators</li>
+                            <li>Classical design techniques</li>
+                            <li>Practical implementation of control systems</li>
+                        </ul>
+
+                    </ul>
+                </div>
+
+                <!-- Images -->
+                <div>
+                    <img alt="Closed Loop" src="upbPag/closed_loop.jpg" />
+                    <br><br><br>
+                    <img alt="PID Controller" src="upbPag/controladorPid.png" />
+                </div>
+            </div>
+
+            <!-- Added AI + GPU Paragraph BEFORE Instructor -->
+            <p class="text-gray-700 mt-10 leading-relaxed">
+                Integrating GPU-accelerated AI tools into this Control Engineering course greatly enriches the learning
+                experience by enabling real-time simulation of dynamic systems, rapid computation of root locus, Bode,
+                and Nyquist diagrams, and intelligent optimization of PID and compensator tuning. Students can
+                experiment with high-fidelity digital twins, train neural network–based controllers, and explore
+                reinforcement learning approaches for autonomous control—all powered by GPU computation. AI-driven
+                tutors can identify errors in stability analysis or controller design, offering targeted feedback. With
+                campus GPU infrastructure, learners gain hands-on exposure to modern control methodologies used in
+                robotics, aerospace, industrial automation, and smart systems.
+            </p>
+
+            <!-- Instructor -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Instructor</h3>
+                <div class="flex items-center bg-gray-50 p-4 rounded-lg">
+                    <img alt="Professor" class="w-16 h-16 rounded-full mr-4 object-cover"
+                        src="upbPag/carlosLopez.jpg" />
+                    <div>
+                        <p class="font-bold text-lg text-gray-900">Mgr. Carlos López</p>
+                        <p class="text-gray-600">
+                            Head of Mechatronics Engineering Laboratory
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </body>
+
 </html>
