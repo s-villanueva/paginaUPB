@@ -12,56 +12,73 @@ document.addEventListener("DOMContentLoaded", () => {
     senales: "procesamiento_senales.html",
     ing_control: "ing_control.html",
     ia: "ai.html",
+    data_mining: "data_mining.html",
+    robotics: "robotics.html",
+    tel_network: "telematics_networks.html",
+    adv_databases: "advanced_databases.html",
+    topics_ai: "topics_ai.html",
+    machine_learning: "machine_learning.html",
+    deep_l: "deep_learning.html",
+    comp_vis: "computer_vision.html",
+    nat_lang_process: "nlp.html",
+    big_data: "big_data.html",
+    adv_ai_project: "advanced_ai_project.html",
+    thesis_project: "thesis_project.html",
+    simulacion: "simulation.html",
+    logistica: "logistics.html",
+    diseno_asistido: "cad.html",
+    ingeniera_produccion: "production_engineering.html",
+    comp_for_bio: "computing_bioengineering.html",
   };
 
   // === DATA MODEL: majors + their courses ===
   // Just edit this to add more majors/courses later
-    const majors = [
+  const majors = [
     {
       id: "electromec",
       name: "Electromechanics Engineering",
-      openByDefault: true,
+      openByDefault: false,
       courses: [
         {
-            id: "sis_sig",
-            label: "Signals and Systems Analysis",
-            icon: "functions",
+          id: "sis_sig",
+          label: "Signals and Systems Analysis",
+          icon: "functions",
         },
         {
-            id: "senales",
-            label: "Digital Signal Processing",
-            icon: "settings_input_antenna",
+          id: "senales",
+          label: "Digital Signal Processing",
+          icon: "settings_input_antenna",
         },
         {
-            id: "ia",
-            label: "Artificial Intelligence",
-            icon: "psychology",
+          id: "ia",
+          label: "Artificial Intelligence",
+          icon: "psychology",
         },
         {
-            id: "ing_control",
-            label: "Control Engineering",
-            icon: "settings",
+          id: "ing_control",
+          label: "Control Engineering",
+          icon: "settings",
         },
         {
-            id: "electronica2",
-            label: "Applied Electronics II",
-            icon: "memory",
+          id: "electronica2",
+          label: "Applied Electronics II",
+          icon: "memory",
         },
       ],
     },
     {
       id: "ai_eng",
-      name:"AI Engineering",
+      name: "AI Engineering",
       openByDefault: false,
       courses: [
         {
           id: "data_mining",
-          label:"Data Mining",
+          label: "Data Mining",
           icon: "analytics",
         },
         {
           id: "machine_learning",
-          label:"Machine Learning I & II",
+          label: "Machine Learning I & II",
           icon: "timeline",
         },
         {
@@ -73,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
           id: "comp_vis",
           label: "Computer Vision",
           icon: "visibility",
-        }, 
+        },
         {
           id: "nat_lang_process",
           label: "Natural Language Processing",
@@ -107,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
           icon: "lan",
         },
         {
-          id: "ai_course",
+          id: "ia",
           label: "Artificial Intelligence",
           icon: "psychology",
         },
@@ -122,7 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
           icon: "auto_awesome",
         },
         {
-          id: "robotics_sistems",
+          id: "robotics",
           label: "Robotics",
           icon: "smart_toy",
         },
@@ -133,6 +150,50 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ]
     },
+    {
+      id: "industrial",
+      name: "Industrial Engineering",
+      openByDefault: false,
+      courses: [
+        {
+          id: "simulacion",
+          label: "Simulation",
+          icon: "science",
+        },
+        {
+          id: "logistica",
+          label: "Logistics",
+          icon: "local_shipping",
+        },
+        {
+          id: "diseno_asistido",
+          label: "Computer-Assisted Design",
+          icon: "architecture",
+        },
+        {
+          id: "ingeniera_produccion",
+          label: "Production Engineering",
+          icon: "factory",
+        }
+      ]
+    },
+    {
+      id: "bioing",
+      name: "Bioengineering in natural resources",
+      openByDefault: false,
+      courses: [
+        {
+          id: "comp_for_bio",
+          label: "Computation for Bioengineering",
+          icon: "biotech",
+        },
+        {
+          id: "bioinformatics_and_bigdata",
+          label: "Bioinformatics and Big Data",
+          icon: "insights",
+        }
+      ]
+    }
   ];
 
 

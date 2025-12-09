@@ -1,134 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Digital Signal Processing Course</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-<style>
-    body {
-        font-family: 'Roboto', sans-serif;
-    }
-</style>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Digital Signal Processing Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-100">
-<main class="w-full md:w-11/12s p-8 mx-auto overflow-y-auto">
-<div class="bg-white p-8 rounded-2xl shadow-md">
-    
-    <!-- Title -->
-    <div class="flex items-center mb-6">
-        <span class="material-icons text-4xl text-blue-700 mr-4">graphic_eq</span>
-        <h1 class="text-4xl font-bold text-gray-900">Digital Signal Processing</h1>
-    </div>
+    <main class="w-full md:w-11/12s p-8 mx-auto overflow-y-auto">
+        <div class="bg-white p-8 rounded-2xl shadow-md">
 
-    <!-- Introduction -->
-    <p class="text-gray-600 leading-relaxed mb-6">
-        The field of Digital Signal Processing (DSP) has evolved into an essential discipline across 
-        communications, medicine, imaging, music, and more. This course provides the theoretical and practical 
-        foundations of DSP, including Fourier analysis, sampling, quantization, digital filter design, and 
-        modern applications. Students will develop competencies in mathematical tools and software used to 
-        analyze and process digital signals, applying this knowledge in real-world environments.
-    </p>
-
-    <!-- Learning Objectives -->
-    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Learning Objectives</h3>
-    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
-        <li>Develop skills for implementing digital signal processing algorithms.</li>
-        <li>Understand signal transformations and apply them in various contexts.</li>
-        <li>Model discrete-time systems.</li>
-        <li>Apply convolution processes in linear and time-invariant systems.</li>
-        <li>Become familiar with practical DSP applications in current technologies.</li>
-        <li>Execute laboratory and practical assignments with technical proficiency.</li>
-    </ul>
-
-    <!-- Course Outline -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Course Outline</h3>
-            <ul class="space-y-3 list-disc list-inside text-gray-600">
-                <b>Topic 1:</b> Introduction and DSP Fundamentals  
-                    <ul class="ml-6 list-disc">
-                        <li>Definitions and foundations</li>
-                        <li>Basic DSP concepts</li>
-                        <li>Mathematical fundamentals</li>
-                    </ul>
-                <br>
-                <b>Topic 2:</b> Fourier Analysis  
-                    <ul class="ml-6 list-disc">
-                        <li>Discrete Fourier Transform (DFT)</li>
-                        <li>Short-Time Fourier Transform</li>
-                        <li>Discrete Fourier Series</li>
-                        <li>Sinusoidal modulation</li>
-                    </ul>
-                <br>
-                <b>Topic 3:</b> Sampling and Quantization  
-                    <ul class="ml-6 list-disc">
-                        <li>Signal sampling</li>
-                        <li>Interpolation</li>
-                        <li>Signal quantization</li>
-                        <li>Reconstruction of continuous signals</li>
-                    </ul>
-                <br>
-                <b>Topic 4:</b> Digital Filters  
-                    <ul class="ml-6 list-disc">
-                        <li>Linear filters</li>
-                        <li>Stability and frequency response</li>
-                        <li>Ideal and realizable filters</li>
-                        <li>Design and application of digital filters</li>
-                    </ul>
-                <br>
-                <b>Topic 5:</b> Vector Spaces Applied to DSP  
-                    <ul class="ml-6 list-disc">
-                        <li>Vector space concepts</li>
-                        <li>Bases and subspaces</li>
-                        <li>Applications in discrete signals</li>
-                    </ul>
-                <br>
-                <b>Topic 6:</b> DSP Applications  
-                    <ul class="ml-6 list-disc">
-                        <li>Advanced time-series analysis</li>
-                        <li>Digital processing and spectrogram analysis</li>
-                        <li>Advanced transforms</li>
-                    </ul>
-            </ul>
-        </div>
-
-        <!-- Images -->
-        <div>
-            <img alt="Interpolation" 
-                 src="upbPag/interpolacion.jpg"/>
-            <br><br><br>
-            <img alt="Fourier Analysis" 
-                 src="upbPag/fourierAnalisis.png"/>
-        </div>
-    </div>
-
-    <!-- Added AI + GPU Paragraph BEFORE Instructor -->
-    <p class="text-gray-700 mt-10 leading-relaxed">
-        Leveraging artificial intelligence tools accelerated by GPUs greatly enhances the learning experience in this Digital Signal Processing course. Students can run real-time Fourier analyses, experiment with dynamic spectrograms, simulate sampling and quantization effects interactively, and design digital filters that update instantly with GPU-powered computation. AI models can classify and denoise complex signals, generate synthetic datasets for laboratory work, and provide intelligent tutoring that identifies conceptual misunderstandings in topics such as DFT, STFT, convolution, and stability. Through GPU-enabled environments on campus, learners gain hands-on experience with industry-level computational workflows, making DSP concepts more intuitive, practical, and directly applicable to modern technologies.
-    </p>
-
-    <!-- Instructor -->
-    <div class="mt-12">
-        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Instructor</h3>
-        <div class="flex items-center bg-gray-50 p-4 rounded-lg">
-            <img alt="Professor portrait" 
-                 class="w-16 h-16 rounded-full mr-4 object-cover" 
-                 src="upbPag/edgar.jpg"/>
-            <div>
-                <p class="font-bold text-lg text-gray-900">Dr. Edgar Salazar</p>
-                <p class="text-gray-600">
-                    Head of Electromechanical Engineering Department <br>
-                    Research Professor
-                </p>
+            <!-- Title -->
+            <div class="flex items-center mb-6">
+                <span class="material-icons text-4xl text-blue-700 mr-4">graphic_eq</span>
+                <h1 class="text-4xl font-bold text-gray-900">Digital Signal Processing</h1>
             </div>
-        </div>
-    </div>
 
-</div>
-</main>
+            <!-- Introduction -->
+            <p class="text-gray-600 leading-relaxed mb-6">
+                The field of Digital Signal Processing (DSP) has evolved into an essential discipline across
+                communications, medicine, imaging, music, and more. This course provides the theoretical and practical
+                foundations of DSP, including Fourier analysis, sampling, quantization, digital filter design, and
+                modern applications. Students will develop competencies in mathematical tools and software used to
+                analyze and process digital signals, applying this knowledge in real-world environments.
+            </p>
+
+            <!-- Learning Objectives -->
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Learning Objectives</h3>
+            <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                <li>Develop skills for implementing digital signal processing algorithms.</li>
+                <li>Understand signal transformations and apply them in various contexts.</li>
+                <li>Model discrete-time systems.</li>
+                <li>Apply convolution processes in linear and time-invariant systems.</li>
+                <li>Become familiar with practical DSP applications in current technologies.</li>
+                <li>Execute laboratory and practical assignments with technical proficiency.</li>
+            </ul>
+
+            <!-- Course Outline -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Course Outline</h3>
+                    <ul class="space-y-3 list-disc list-inside text-gray-600">
+                        <b>Topic 1:</b> Introduction and DSP Fundamentals
+                        <ul class="ml-6 list-disc">
+                            <li>Definitions and foundations</li>
+                            <li>Basic DSP concepts</li>
+                            <li>Mathematical fundamentals</li>
+                        </ul>
+                        <br>
+                        <b>Topic 2:</b> Fourier Analysis
+                        <ul class="ml-6 list-disc">
+                            <li>Discrete Fourier Transform (DFT)</li>
+                            <li>Short-Time Fourier Transform</li>
+                            <li>Discrete Fourier Series</li>
+                            <li>Sinusoidal modulation</li>
+                        </ul>
+                        <br>
+                        <b>Topic 3:</b> Sampling and Quantization
+                        <ul class="ml-6 list-disc">
+                            <li>Signal sampling</li>
+                            <li>Interpolation</li>
+                            <li>Signal quantization</li>
+                            <li>Reconstruction of continuous signals</li>
+                        </ul>
+                        <br>
+                        <b>Topic 4:</b> Digital Filters
+                        <ul class="ml-6 list-disc">
+                            <li>Linear filters</li>
+                            <li>Stability and frequency response</li>
+                            <li>Ideal and realizable filters</li>
+                            <li>Design and application of digital filters</li>
+                        </ul>
+                        <br>
+                        <b>Topic 5:</b> Vector Spaces Applied to DSP
+                        <ul class="ml-6 list-disc">
+                            <li>Vector space concepts</li>
+                            <li>Bases and subspaces</li>
+                            <li>Applications in discrete signals</li>
+                        </ul>
+                        <br>
+                        <b>Topic 6:</b> DSP Applications
+                        <ul class="ml-6 list-disc">
+                            <li>Advanced time-series analysis</li>
+                            <li>Digital processing and spectrogram analysis</li>
+                            <li>Advanced transforms</li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <!-- Images -->
+                <div>
+                    <img alt="Interpolation" src="upbPag/interpolacion.jpg" />
+                    <br><br><br>
+                    <img alt="Fourier Analysis" src="upbPag/fourierAnalisis.png" />
+                </div>
+            </div>
+
+            <!-- Added AI + GPU Paragraph BEFORE Instructor -->
+            <p class="text-gray-700 mt-10 leading-relaxed">
+                Leveraging artificial intelligence tools accelerated by GPUs greatly enhances the learning experience in
+                this Digital Signal Processing course. Students can run real-time Fourier analyses, experiment with
+                dynamic spectrograms, simulate sampling and quantization effects interactively, and design digital
+                filters that update instantly with GPU-powered computation. AI models can classify and denoise complex
+                signals, generate synthetic datasets for laboratory work, and provide intelligent tutoring that
+                identifies conceptual misunderstandings in topics such as DFT, STFT, convolution, and stability. Through
+                GPU-enabled environments on campus, learners gain hands-on experience with industry-level computational
+                workflows, making DSP concepts more intuitive, practical, and directly applicable to modern
+                technologies.
+            </p>
+
+            <!-- Instructor -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Instructor</h3>
+                <div class="flex items-center bg-gray-50 p-4 rounded-lg">
+                    <img alt="Professor portrait" class="w-16 h-16 rounded-full mr-4 object-cover"
+                        src="upbPag/edgar.jpg" />
+                    <div>
+                        <p class="font-bold text-lg text-gray-900">Edgar Salazar, Ph.D.</p>
+                        <p class="text-gray-600">
+                            Head of Electromechanical Engineering Department <br>
+                            Research Professor
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </body>
+
 </html>

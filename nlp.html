@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Natural Language Processing Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <main class="w-full md:w-11/12s p-8 mx-auto overflow-y-auto">
+        <div class="bg-white p-8 rounded-2xl shadow-md">
+
+            <!-- Title -->
+            <div class="flex items-center mb-6">
+                <span class="material-icons text-4xl text-teal-600 mr-4">language</span>
+                <h1 class="text-4xl font-bold text-gray-900">Natural Language Processing</h1>
+            </div>
+
+            <!-- Introduction -->
+            <p class="text-gray-600 leading-relaxed mb-6">
+                Natural Language Processing (NLP) enables computers to understand, interpret, and generate human
+                language,
+                powering applications from chatbots and virtual assistants to machine translation and sentiment
+                analysis.
+                This course covers the complete NLP pipeline, from text preprocessing and classical techniques to modern
+                transformer-based models like BERT and GPT. Students will master tokenization, word embeddings, sequence
+                models, and attention mechanisms while building practical applications using Python, spaCy, Hugging
+                Face,
+                and TensorFlow. The course prepares students to develop state-of-the-art NLP systems for information
+                extraction, question answering, and text generation.
+            </p>
+
+            <!-- Learning Objectives -->
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Learning Objectives</h3>
+            <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                <li>Understand fundamentals of linguistics and text processing</li>
+                <li>Master text preprocessing: tokenization, stemming, and lemmatization</li>
+                <li>Implement word embeddings: Word2Vec, GloVe, and FastText</li>
+                <li>Build sequence models using RNNs, LSTMs, and GRUs</li>
+                <li>Apply transformer architectures: BERT, GPT, T5</li>
+                <li>Develop NLP applications: sentiment analysis, NER, machine translation</li>
+                <li>Fine-tune large language models for specific tasks</li>
+                <li>Deploy NLP models in production environments</li>
+            </ul>
+
+            <!-- Course Outline -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Course Outline</h3>
+                    <ul class="space-y-3 list-disc list-inside text-gray-600">
+
+                        <b>Text Processing Fundamentals:</b>
+                        <ul class="ml-6 list-disc">
+                            <li>Tokenization and text normalization</li>
+                            <li>Part-of-speech tagging and parsing</li>
+                            <li>Named Entity Recognition (NER)</li>
+                            <li>Regular expressions and pattern matching</li>
+                        </ul>
+                        <br>
+                        <b>Classical NLP Techniques:</b>
+                        <ul class="ml-6 list-disc">
+                            <li>Bag-of-words and TF-IDF</li>
+                            <li>N-gram language models</li>
+                            <li>Hidden Markov Models</li>
+                            <li>Conditional Random Fields</li>
+                        </ul>
+                        <br>
+                        <b>Word Embeddings and Neural Models:</b>
+                        <ul class="ml-6 list-disc">
+                            <li>Word2Vec: CBOW and Skip-gram</li>
+                            <li>GloVe and FastText embeddings</li>
+                            <li>RNNs and LSTMs for sequence modeling</li>
+                            <li>Seq2Seq models and attention mechanisms</li>
+                        </ul>
+                        <br>
+                        <b>Transformers and Large Language Models:</b>
+                        <ul class="ml-6 list-disc">
+                            <li>Transformer architecture and self-attention</li>
+                            <li>BERT and its variants (RoBERTa, ALBERT)</li>
+                            <li>GPT models and text generation</li>
+                            <li>T5, BART, and sequence-to-sequence transformers</li>
+                            <li>Fine-tuning and prompt engineering</li>
+                        </ul>
+                        <br>
+                        <b>Applications:</b>
+                        <ul class="ml-6 list-disc">
+                            <li>Sentiment analysis and opinion mining</li>
+                            <li>Machine translation</li>
+                            <li>Question answering systems</li>
+                            <li>Text summarization</li>
+                            <li>Chatbots and dialogue systems</li>
+                        </ul>
+
+                    </ul>
+                </div>
+
+                <!-- Images -->
+                <div>
+                    <img alt="NLP Pipeline" src="upbPag/nlp_pipeline.png" />
+                    <br><br><br>
+                    <img alt="Transformer Architecture" src="upbPag/transformer_architecture.jpg" />
+                </div>
+            </div>
+
+            <!-- Added AI + GPU Paragraph -->
+            <p class="text-gray-700 mt-10 leading-relaxed">
+                GPUs are employed to train large-scale language models (LLMs) and architectures like Transformers, which
+                require intensive computing capacity to analyze and generate text. Students will leverage GPU
+                acceleration
+                to fine-tune models like BERT and GPT on domain-specific datasets, process millions of documents for
+                information extraction, and train custom language models from scratch. With campus GPU infrastructure,
+                learners can experiment with state-of-the-art architectures, implement real-time translation systems,
+                and develop conversational AI applications that mirror the capabilities of systems like ChatGPT,
+                preparing
+                them for careers in NLP research and development.
+            </p>
+
+            <!-- Instructor -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Instructor</h3>
+                <div class="flex items-center bg-gray-50 p-4 rounded-lg">
+                    <span class="material-icons text-5xl text-teal-600 mr-4">account_circle</span>
+                    <div>
+                        <p class="font-bold text-lg text-gray-900">NLP Instructor</p>
+                        <p class="text-gray-600">
+                            Natural Language Processing and Computational Linguistics Specialist
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
