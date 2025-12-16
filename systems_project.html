@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Systems Engineering Project Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="course-responsive.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <main class="w-full md:w-11/12 p-8 mx-auto overflow-y-auto">
+        <div class="bg-white p-8 rounded-2xl shadow-md">
+
+            <!-- Title -->
+            <div class="flex items-center mb-6">
+                <span class="material-icons text-4xl text-blue-800 mr-4">school</span>
+                <h1 class="text-4xl font-bold text-gray-900">Systems Engineering Projects</h1>
+            </div>
+
+            <!-- Introduction -->
+            <p class="text-gray-600 leading-relaxed mb-6">
+                The Systems Engineering Project is the culminating academic experience where students demonstrate
+                mastery of technical skills. Projects focus on building scalable, high-performance, and secure systems,
+                ranging from distributed architectures to cloud-native infrastructure and IoT networks.
+            </p>
+
+            <!-- Research Proposals -->
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Research Proposals</h3>
+            <div class="grid grid-cols-1 gap-6">
+
+                <!-- Project 1 -->
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <div class="flex items-start">
+                        <span class="material-icons text-blue-600 text-3xl mr-4 mt-1">hub</span>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Distributed GPU Training Orchestration</h4>
+                            <p class="text-gray-600">
+                                Designing a system to parallelize large-scale neural network training across multiple
+                                GPU nodes.
+                                This project explores strategies like Data Parallelism and Ring All-Reduce to minimize
+                                communication overhead and maximize throughput.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <div class="flex items-start">
+                        <span class="material-icons text-blue-600 text-3xl mr-4 mt-1">speed</span>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">High-Performance Inference Engine</h4>
+                            <p class="text-gray-600">
+                                Building a low-latency inference server optimized for GPU utilization.
+                                Focuses on techniques like dynamic batching, kernel fusion, and concurrent model
+                                execution to serve massive AI workloads efficiently.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <div class="flex items-start">
+                        <span class="material-icons text-blue-600 text-3xl mr-4 mt-1">security</span>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">AI-Powered Network Intrusion Detection</h4>
+                            <p class="text-gray-600">
+                                Developing a real-time Intrusion Detection System (IDS) that uses deep learning to
+                                identify zero-day attacks and traffic anomalies.
+                                This project focuses on securing high-speed networks against evolving cyber threats.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <div class="flex items-start">
+                        <span class="material-icons text-blue-600 text-3xl mr-4 mt-1">vpn_lock</span>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Zero-Trust Cloud Architecture</h4>
+                            <p class="text-gray-600">
+                                Implementing a security model that requires strict identity verification for every
+                                person and device trying to access resources on a private network.
+                                Focuses on micro-segmentation and secure service-to-service communication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

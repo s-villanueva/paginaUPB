@@ -30,6 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
     ingeniera_produccion: "production_engineering.html",
     comp_for_bio: "computing_bioengineering.html",
     bioinformatics_and_bigdata: "bioinformatics_big_data.html",
+    ai_project: "ai_project.html",
+    systems_project: "systems_project.html",
+    electromec_project: "electromechanics_project.html",
+    bio_project: "bioengineering_project.html",
+    industrial_project: "industrial_project.html",
   };
 
   // === DATA MODEL: majors + their courses ===
